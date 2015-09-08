@@ -14,6 +14,8 @@
 		2A0760231B9E5011007AB73E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0760211B9E5011007AB73E /* LaunchScreen.storyboard */; };
 		2A07602E1B9E5011007AB73E /* TwipperAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07602D1B9E5011007AB73E /* TwipperAppTests.swift */; };
 		2A0760391B9E5011007AB73E /* TwipperAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0760381B9E5011007AB73E /* TwipperAppUITests.swift */; };
+		2A0760471B9E5420007AB73E /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0760461B9E5420007AB73E /* TweetCell.swift */; settings = {ASSET_TAGS = (); }; };
+		2A0760491B9E54DA007AB73E /* TweetClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0760481B9E54DA007AB73E /* TweetClass.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2A0760341B9E5011007AB73E /* TwipperAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwipperAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0760381B9E5011007AB73E /* TwipperAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwipperAppUITests.swift; sourceTree = "<group>"; };
 		2A07603A1B9E5011007AB73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0760461B9E5420007AB73E /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		2A0760481B9E54DA007AB73E /* TweetClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				2A0760181B9E5011007AB73E /* AppDelegate.swift */,
 				2A07601A1B9E5011007AB73E /* ViewController.swift */,
 				2A07601C1B9E5011007AB73E /* Main.storyboard */,
+				2A0760481B9E54DA007AB73E /* TweetClass.swift */,
+				2A0760461B9E5420007AB73E /* TweetCell.swift */,
 				2A07601F1B9E5011007AB73E /* Assets.xcassets */,
 				2A0760211B9E5011007AB73E /* LaunchScreen.storyboard */,
 				2A0760241B9E5011007AB73E /* Info.plist */,
@@ -255,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0760471B9E5420007AB73E /* TweetCell.swift in Sources */,
 				2A07601B1B9E5011007AB73E /* ViewController.swift in Sources */,
+				2A0760491B9E54DA007AB73E /* TweetClass.swift in Sources */,
 				2A0760191B9E5011007AB73E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
